@@ -14,6 +14,7 @@ public class Empregado {
                 this.sobreNome = sobreNome;
                 
                 ++contador; //Incrementa contagem estatica a empregado
+                System.out.printf("%n%s, %s numero de Empregado: %d%n", nome, sobreNome, contador);
         }
 
         public String getNome() {
